@@ -1,0 +1,12 @@
+{application, erlseq,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erlseq_app, []}},
+  {env, []}
+ ]}.
